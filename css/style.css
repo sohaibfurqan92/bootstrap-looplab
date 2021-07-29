@@ -1,0 +1,48 @@
+/* Color codes
+#008ed6, #333, #fff
+*/
+
+body{
+  background: #333;
+  color: #fff;
+  position: relative;
+}
+
+nav{
+  border-bottom: 3px solid #008ed6;
+}
+
+#home-section{
+  background: url('../img/home.jpg') no-repeat fixed;
+  background-size: cover;
+  min-height: 700px;
+  position: relative;
+}
+
+#home-section .dark-overlay{
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+i.fas{
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#home-section i.fas, #create-section i.fas{
+  background:#fff;
+  color:#008ed6;
+}
+
+#home-section .home-inner{
+  padding-top: 120px;
+}
+
+#explore-section i.fas, #share-section i.fas{
+  background: #333;
+  color:#fff;
+}
